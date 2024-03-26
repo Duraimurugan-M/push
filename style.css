@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+#inputBox{
+    /* display: block; */
+    flex-direction: column;
+    max-width: 25%;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 6px;
+}
+
+#inputBoxResult{
+    flex-direction: column;
+    display: block;
+}
